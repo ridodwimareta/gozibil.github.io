@@ -101,6 +101,11 @@
     z-index: 3;
     
 }
+.workingspace .desktrashPay
+{
+    height: 350px;
+    
+}
 
 /* Our Team */
 #teamBuild .teamBuild
