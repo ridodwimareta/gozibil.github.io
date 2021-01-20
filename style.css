@@ -1,11 +1,10 @@
 /* Navbar */
 .logo {
-    width: 125px;
+   height: 40px;
 }
 
 /* utility */
 .tombol {
-    background-color: #5D6DFF;
     border-radius: 50px;
     color: white;
 }
@@ -15,52 +14,167 @@
     background-image: url(img/landingimage.png);
     background-size: cover;
     background-position-y: bottom;
-    height: 640px;
+    height: 100vh;
     padding: 20px;
-    text-align: center;
   }
 
+  
+.contentLeft
+{
+    float: left;
+}
 .top-wrapper .title {
     font-family: Paytone One;
     color: white;
-    margin-top: 180px;
     font-size: 30px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 5);
+    text-align: left;
 }
 
 .top-wrapper p {
-    text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin-top: 30px;
     margin-bottom: 30px;
     opacity: 80%;
+    text-align: left;
+}
+.contentRight
+{
+    position: relative;
+    float: right;
+    width: 50%;
+    z-index: 0;
+    padding-left: 15%;
+}
+
+.top-wrapper .andro1
+{
+   position: absolute;
+   z-index: 6;
+}
+.top-wrapper .andro2
+{
+    position: absolute;
+    z-index: 7;
 }
 
 /* workingspace */
 .workingspace {
-    margin: 120px 0;
     text-align: center;
 }
 
 .workingspace h3 {
     font-size: 35px;
     font-weight: 700;
-    margin: 40px 10px;
 }
 
 .workingspace p {
     font-size: 16px;
     font-weight: 400;
-    margin: 0 10px;
     color: rgb(146, 146, 146);
 }
 
-.workingspace img {
-    border-radius: 10px;
+
+.workingspace .deskAndro1
+{
+    width: 100%;
 }
 
+.workingspace .deskBigTrash
+{
+    position: absolute;
+    z-index: -2;
+}
+.workingspace .deskBigTrash2
+{
+    z-index: 3;
+    
+}
+.workingspace .deskReport
+{
+    position: absolute;
+    z-index: -2;
+}
+.workingspace .deskReport2
+{
+    z-index: 3;
+    
+}
+
+/* Our Team */
+#teamBuild .teamBuild
+{
+    margin: 50px 0px 50px 0px;
+}
+#teamBuild .teamBuild .card
+{
+    -webkit-box-shadow: 1px 5px 9px 4px rgba(0,0,0,0.52); 
+    box-shadow: 1px 5px 9px 4px rgba(0,0,0,0.52);
+}
+.teamBuild h4
+{
+    font-weight: 800;
+    font-size: 40px;
+}
+.teamBuild .rataTengah
+{
+    width: 82%;
+    margin-left: 11%;
+}
+.teamBuild .frameTeam
+{
+    min-width: 300px;
+    max-width: 25%;
+    float: left;
+    margin: 5% 0% 5% 0%;
+}
+.teamBuild .card
+{
+    padding-bottom: 15px;
+}
+.teamBuild .card .card-title
+{
+    font-weight: bold;
+    text-align: center;
+}
+.teamBuild .card .card-body p
+{
+    text-align: center;
+}
+.teamBuild .card .card-body ul
+{
+    list-style: none;
+    margin: 20px 0px 20px 0px;
+}
+.teamBuild .card .card-body li
+{
+    float: left;
+    display: inline-block;
+    margin-left: 12px;
+}
+.teamBuild .card .card-body li i
+{
+    color: white;
+    background-color: black;
+    padding: 8px;
+}
+.teamBuild .card img
+{
+    min-height: 280px !important;
+    object-fit: cover;
+    opacity: 0.8;
+}
+#teamBuild .teamBuild .card .circle
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-self: center;
+    z-index: 60;
+    margin-top: -28%;
+    object-fit: cover;
+}
 /* footer */
 .footer-logo{
     border-top: 1px solid #5D6DFF;
@@ -85,10 +199,9 @@
 }
 
 
-
-
 /* Desktop Version */
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) 
+{
     .navbar-brand, .nav-link {
         color: white !important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 2);
@@ -112,17 +225,41 @@
         color: black;
     }
 
+    .contentLeft
+    {
+        width: 50%;
+    }
     .top-wrapper .title {
         font-size: 50px;
+        margin-top: 180px;
+        width: 100%;
     }
     
     .top-wrapper p {
         font-size: 20px;
     }
+    .contentRight
+    {
+        width: 50%;
+        margin-top: 180px;
+    }
+    .top-wrapper .andro1
+    {
+        height: 380px;
+        margin-left: 30%;
+    }
+    .top-wrapper .andro2
+    {
+        height: 380px;
+        margin-top: 50px;
+        margin-left: 20%;
+    }
 
+    /* Working Space */
     .workingspace {
-        margin: 180px 60px;
+        margin: 80px 0px 60px 0px;
         text-align: left;
+        overflow: hidden;
     }
     
     .workingspace h3 {
@@ -138,5 +275,140 @@
         margin-top: 30px;
         color: rgb(146, 146, 146);
     }
+    .workingspace .deskAndro1 {
+        scale: 1.0;
+    }
+    .workingspace .deskBigTrash
+    {
+        height: 350px;
+        
+    }
+    .workingspace .deskBigTrash2
+    {
+        height: 350px;
+        margin-left: 40%;
+        margin-top: 20px;
+    }
+    .workingspace .deskReport
+    {
+        height: 350px;
+    }
+    .workingspace .deskReport2
+    {
+        height: 350px;
+        margin-left: 40%;
+        margin-top: 20px;
+    }
 
+ }
+
+ /* Adroid Version */
+ @media screen and (max-width: 480px)
+ {
+    .tombol {
+        background-color: transparent !important;
+        color: white !important;
+        border: 2px solid white;
+    }
+    
+    .top-wrapper
+    {
+        padding: 0;
+        overflow: hidden;
+    }
+   .contentLeft
+   {
+       width: 100%;
+       text-align: center;
+   }
+   .top-wrapper .title {
+       max-width: 100%;
+       text-align: center;
+       margin-top: 50%;
+   }
+   .top-wrapper p {
+       max-width: 100%;
+       margin-top: 15px;
+       margin-bottom: 15px;
+       text-align: center;
+   }
+   .contentRight
+   {
+       display: none;
+   }
+ }
+ 
+ /* Tablet Version */
+ @media screen and (min-width: 480px) and (max-width: 800px)
+ {
+     
+    .contentLeft
+    {
+        width: 50%;
+    }
+    .top-wrapper .title {
+        max-width: 100%;
+        text-align: left;
+        margin-top: 50%;
+    }
+    .top-wrapper p {
+        max-width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+    .contentRight
+    {
+        float: right;
+        max-width: 50%;
+        overflow: hidden;
+        height: 100vh;
+    }
+    .top-wrapper .andro1
+    {
+        height: 230px;
+        margin-top: 60%;
+        margin-left: 20%;   
+    }
+    .top-wrapper .andro2
+    {
+        margin-top: 80%;
+        height: 230px;
+    }
+ }
+ /* Mini Desktop */
+ @media screen and (min-width: 800px) and (max-width: 1200px)
+ {
+    .contentLeft
+    {
+        width: 50%;
+    }
+    .top-wrapper .title {
+        max-width: 100%;
+        text-align: left;
+        margin-top: 50%;
+    }
+    .top-wrapper p {
+        max-width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+    .contentRight
+    {
+        max-width: 50%;
+        overflow: hidden;
+        height: 100vh;
+    }
+    .top-wrapper .andro1
+    {
+        height: 300px;
+        margin-left: 80px;
+        margin-top: 70%;
+    }
+    .top-wrapper .andro2
+    {
+        height: 300px;
+        margin-top: 50%;
+    }
  }
