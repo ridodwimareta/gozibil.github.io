@@ -2,7 +2,7 @@
 .logo {
    height: 40px;
 }
-.navbar-brand {
+.navbar-brand a{
    font-family : calibri;
 }
 
