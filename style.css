@@ -2,6 +2,9 @@
 .logo {
    height: 40px;
 }
+.navbar-brand {
+   font-family : calibri;
+}
 
 /* utility */
 .tombol {
