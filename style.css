@@ -493,4 +493,38 @@
         height: 300px;
         margin-top: 50%;
     }
+    .workingspace 
+   {
+       margin-top: 20px;
+       display: flex;
+   }
+   .container #goZibli h3
+   {
+       padding-top: 30px;
+   }
+   .workingspace .deskBigTrash
+   {
+        height: 230px;
+   }
+   .workingspace .deskBigTrash2
+   {
+        height: 230px;
+        margin-left: 80px;
+        margin-top: 25px;
+   }
+  
+   .workingspace .deskReport
+   {
+        height: 230px;
+   }
+   .workingspace .deskReport2
+   {
+        height: 230px;
+        margin-left: 80px;
+        margin-top: 25px;
+   }
+   .container #trashPay
+   {
+        margin-top: 20px;
+   }
  }
