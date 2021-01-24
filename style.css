@@ -104,7 +104,6 @@
 .workingspace .desktrashPay
 {
     width: 100%;
-    
 }
 
 /* Our Team */
@@ -124,8 +123,8 @@
 }
 .teamBuild .rataTengah
 {
-    width: 82%;
-    margin-left: 11%;
+    display: flex;
+    justify-content: center;
 }
 .teamBuild .frameTeam
 {
@@ -341,6 +340,41 @@
    {
        display: none;
    }
+
+   /* Feature */
+   .workingspace 
+   {
+       margin-top: 20px;
+   }
+   .container #goZibli h3
+   {
+       padding-top: 30px;
+   }
+   .workingspace .deskBigTrash
+   {
+        height: 230px;
+   }
+   .workingspace .deskBigTrash2
+   {
+        height: 230px;
+        margin-left: 80px;
+        margin-top: 25px;
+   }
+  
+   .workingspace .deskReport
+   {
+        height: 230px;
+   }
+   .workingspace .deskReport2
+   {
+        height: 230px;
+        margin-left: 80px;
+        margin-top: 25px;
+   }
+   .container #trashPay
+   {
+        margin-top: 20px;
+   }
  }
  
  /* Tablet Version */
@@ -380,6 +414,40 @@
         margin-top: 80%;
         height: 230px;
     }
+
+    .workingspace 
+   {
+       margin-top: 20px;
+   }
+   .container #goZibli h3
+   {
+       padding-top: 30px;
+   }
+   .workingspace .deskBigTrash
+   {
+        height: 230px;
+   }
+   .workingspace .deskBigTrash2
+   {
+        height: 230px;
+        margin-left: 80px;
+        margin-top: 25px;
+   }
+  
+   .workingspace .deskReport
+   {
+        height: 230px;
+   }
+   .workingspace .deskReport2
+   {
+        height: 230px;
+        margin-left: 80px;
+        margin-top: 25px;
+   }
+   .container #trashPay
+   {
+        margin-top: 20px;
+   }
  }
  /* Mini Desktop */
  @media screen and (min-width: 800px) and (max-width: 1200px)
