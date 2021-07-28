@@ -1,4 +1,7 @@
 /* Navbar */
+.navbar {
+    margin-top: 0px;
+}
 .navbar-brand .logo
 {
     filter: invert(100%);
@@ -20,7 +23,7 @@
     background-size: cover;
     background-position-y: bottom;
     height: 100vh;
-    padding: 18px;
+    padding: 20px;
     background-color: blue;
   }
 
