@@ -1,6 +1,6 @@
 /* Navbar */
 .navbar {
-    margin-top: 0px;
+    margin-top: 0px !important;
 }
 .navbar-brand .logo
 {
